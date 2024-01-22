@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    --primary: 94 69 75;
+    --primary-content: 255 255 255;
+    --primary-states: 3 60 124;
+    --secondary: 216 179 132;
+    --secondary-content: 4 94 179;
+    --baseColor: 49 49 49;
+    --neutral: 243 240 215;
+    --container: 206 229 208;
+    --error: 255 0 0;
+    --disabled: 233 236 239;
+    --transparent: transparent;
+  }
+}

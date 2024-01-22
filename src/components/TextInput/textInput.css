@@ -1,0 +1,24 @@
+.input-group {
+  @apply relative;
+}
+.input-group label,
+.input-group span,
+.dropdown-label {
+  @apply mb-2 block break-words text-left font-medium  text-primary;
+}
+.text-field {
+  @apply relative min-h-[48px] rounded-lg border border-primary/75 bg-neutral py-2 pl-3 pr-4  text-baseColor placeholder:text-opacity-60 hover:border-primary active:border-primary;
+  box-sizing: border-box;
+}
+.text-field:disabled::placeholder {
+  @apply !text-primary !text-opacity-60;
+}
+.text-field:disabled {
+  @apply bg-disabled;
+}
+.text-field:focus {
+  @apply border-2 border-primary outline-none;
+}
+.text-field.input-error {
+  @apply border border-error;
+}
